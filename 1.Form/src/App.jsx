@@ -23,13 +23,13 @@ function App() {
             </div>
             <div className="col-12">
               <label htmlFor="label" className="form-label fw-semibold fs-5">Label</label>
-              <input type="text" className="form-control border border-danger" id="label" name="label" aria-describedby="label_help" />
-              <div id="label_help" className="form-text text-white-50">Please write to label to here</div>
+              <input type="text" className="form-control border border-danger" id="label" name="label" />
+              <div className="form-text text-white-50">Please write to label to here</div>
             </div>
             <div className="col-12">
               <label htmlFor="key" className="form-label fw-semibold fs-5">Key</label>
               <input type="text" className="form-control border border-danger" id="key" name="key" />
-              <div id="label_help" className="form-text text-white-50">Please write to key to here</div>
+              <div className="form-text text-white-50">Please write to key to here</div>
             </div>
             <div className="col-12">
               <label className="form-label fw-semibold fs-5">Status</label>
