@@ -2,7 +2,7 @@ function App() {
   return (
     <div className="container vh-100">
       <div className="row justify-content-center align-items-center h-100">
-        <div className="col-md-5">
+        <div className="col-md-4">
           <form className="row border border-white g-3 p-3">
             <div className="col-12">
               <label className="form-label fw-semibold fs-5">Purpose</label>
